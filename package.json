@@ -1,0 +1,22 @@
+{
+  "name": "redis-node",
+  "version": "1.0.0",
+  "description": "redis-app",
+  "main": "app.js",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "ioredis": "^4.14.1",
+    "nodemon": "^1.19.4",
+    "pubnub": "^4.27.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
